@@ -21,3 +21,6 @@ class Author
     post.author = self
     @post << post
     @@post_count += 1
+  end
+
+end
