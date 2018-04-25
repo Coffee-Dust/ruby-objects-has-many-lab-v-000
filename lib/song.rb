@@ -7,6 +7,6 @@ class Song
   end
 
   def artist_name
-    @artist.name ? @artist.name : nil
+    @artist.name == true ? @artist.name : nil
   end
 end
